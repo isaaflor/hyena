@@ -301,7 +301,7 @@ TAMANHO_LOTE = 64      # Vai mandar 64 clientes  por vez para a GPU
 
 
 dataset_fraude = DatasetFraudeSequencial(
-    caminho_csv='./dataset/creditcard.csv',
+    caminho_csv='./creditcard.csv',
     tamanho_sequencia=TAMANHO_CONTEXTO
 )
 
